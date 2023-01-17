@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "name": "Apple",
+      "price": 2,
+      "type": "Fruit",
+      "brand": "Fuji",
+      "id": 1
+    }
+  ]
+}
