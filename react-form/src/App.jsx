@@ -2,7 +2,7 @@ import "./App.css";
 import { useState, useCallback } from "react";
 import { questions } from "./Questions";
 import { Container, Row, Col, Card, Button, Form } from "react-bootstrap";
-import { MultiStepProgressBar } from "./components/MultiStepProgressBar";
+import MultiStepProgressBar from "./components/MultiStepProgressBar";
 import { MultiStepForm } from "./components/MultiStepForm";
 import { usernamePasswordValidator, othersValidator } from "./Validator";
 

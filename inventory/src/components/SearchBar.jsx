@@ -6,17 +6,14 @@ function SearchBar(props) {
   const [price, setPrice] = useState(0);
   const [type, setType] = useState("");
   const [brand, setBrand] = useState("");
-  const [id, setId] = useState(1);
 
   const searchButtonPressed = () => {
     props.updateSearchParams({
-      id,
       name: name,
       price: price,
       type: type,
       brand: brand,
     });
-    setId(id => id + 1)
   };
   return (
     // the Search button is not a submit button

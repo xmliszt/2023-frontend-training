@@ -35,6 +35,11 @@ function ItemsDisplay(props) {
           {displayData(item, "brand")}
         </th>
         {/* </StyledParagraph> */}
+        <td>
+                <button className="btn btn-danger" onClick={() => props.deleteItem(item)}>
+                  Delete
+                </button>
+              </td>
       </tr>
     );
   };

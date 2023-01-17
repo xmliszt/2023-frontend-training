@@ -1,6 +1,5 @@
 import { useState } from "react";
-import addItemStyles from "./AddItem.module.css";
-
+import styles from "../AddItem.module.css"
 function AddItem(props) {
   // we want to send these info back to the App component
   const [name, setName] = useState("");
@@ -89,7 +88,7 @@ function AddItem(props) {
         <div className="row mt-3">
           {/* fake col-4 stuff */}
           <div className="col col-5"></div>
-          <button type="reset" className={"col-2 btn " + addItemStyles.error}>
+          <button type="reset" className={"col-2 btn " + styles.error} >
             RESET
           </button>
         </div>
