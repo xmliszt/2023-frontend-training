@@ -64,11 +64,15 @@ The details of the general workflow are as follow:
 
 ### 1. NextJS SSR For Better Performance
 
-By using NextJS 13 to build this project, some pages in the app were able to use Server Side Rendering (SSR) to achieve better performance and faster load on client side. As you can see from the below screenshots, the Contentful Paint is within 1 second, meaning the user waits no more than 1 second for the page to be visible to the user. From the below lighthouse analysis, we can also see that the performance score 87. Some points are deducted due to boilerplate javascript codes created internally by NextJS and cannot be removed. This adds to the loading time, but insignificantly.
+By using NextJS 13 to build this project, some pages in the app were able to use Server Side Rendering (SSR) to achieve better performance and faster load on client side. As you can see from the below screenshots, the Contentful Paint is within 1 second, meaning the user waits no more than 1 second for the page to be visible to the user.
+
+- Vercel Desktop Analytics
 
 ![Desktop Analytics](./docs/Desktop%20Analysis.png)
 
-![Mobile Lighthouse](./docs/Lighthouse%20Analysis.png)
+- Vercel Mobile Analytics
+
+![Mobile Lighthouse](./docs/Mobile%20Analysis.png)
 
 ### 2. Beta NextJS App Directory for clear and intuitive project structure
 
